@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today’s Tasks</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    .widget {
+      max-width: 100%;
+      border-radius: 12px;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .task {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .task input[type="checkbox"] {
+      margin-right: 0.5rem;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="widget">
+    <h2>✅ Today’s Tasks</h2>
+    <div class="task"><input type="checkbox" id="task1"><label for="task1">Workout</label></div>
+    <div class="task"><input type="checkbox" id="task2"><label for="task2">Read Chapter 4</label></div>
+    <div class="task"><input type="checkbox" id="task3"><label for="task3">Review Notes</label></div>
+  </div>
+</body>
+</html>
